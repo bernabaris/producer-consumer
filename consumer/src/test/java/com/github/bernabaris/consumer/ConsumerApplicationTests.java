@@ -1,10 +1,10 @@
-package com.github.bernabaris.Producerconsumer;
+package com.github.bernabaris.consumer;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ProducerConsumerApplicationTests {
+class ConsumerApplicationTests {
 
 	@Test
 	void contextLoads() {
