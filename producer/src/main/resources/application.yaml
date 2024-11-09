@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: producer
+  data:
+    mongodb:
+      database: users
+      host: localhost
+      port: 27017
+  kafka:
+    bootstrap-servers: localhost:9092
+    producer:
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: org.apache.kafka.common.serialization.StringSerializer
+    template:
+      default-topic: my-topic
+server:
+  port: 8081
