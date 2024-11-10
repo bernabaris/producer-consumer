@@ -21,8 +21,9 @@ To run the project, follow these steps:
  ```sh
    docker compose up -d
    ```
-4. To build both application (producer & consumer), navigate to the respective directories and run.
+4. Create docker images in the consumer and producer directories.
 ```sh
-   mvn clean install
+   docker build -t producer:1.0.0 .
+   docker build -t consumer:1.0.0 .
    ```
 5. You should see JAR files generated in both consumer/target and producer/target directories.
