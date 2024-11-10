@@ -15,3 +15,14 @@ To run the project, follow these steps:
    ```sh
    git clone https://github.com/bernabaris/producer-consumer.git
    ```
+2. Add consumer and producer apps as maven project.
+
+3. Start the Kafka and MongoDB services, use the following command in the docker/kafka & docker/mongodb folder.
+ ```sh
+   docker compose up -d
+   ```
+4. To build both application (producer & consumer), navigate to the respective directories and run.
+```sh
+   docker compose up -d
+   ```
+5. You should see JAR files generated in both consumer/target and producer/target directories.
