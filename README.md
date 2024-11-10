@@ -5,6 +5,7 @@ Simple CDC Application Development Project with Apache Kafka
 This project includes two Spring Boot applications:
 
 Application A: pulls data from MongoDB and sends it to Apache Kafka. (producer)
+
 Application B: consumes this data from Kafka. (consumer)
 
 ## Setup
