@@ -33,5 +33,5 @@ To run the project, follow these steps:
    ```sh
    cd data-generator
    pip3 install -r requirements.txt
-   python3 data_generator.py; cd ..;
+   python3 data_generator.py; cd ..
    ```
