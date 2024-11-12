@@ -35,4 +35,4 @@ To run the project, follow these steps:
    pip3 install -r requirements.txt
    python3 data_generator.py; cd ..
    ```
-This project was developed to learn Apache Kafka, thanks to my study coach. @tunahansezen 💫 
+This project was developed to learn Apache Kafka, thanks to my supportive study coach. @tunahansezen 💫 
