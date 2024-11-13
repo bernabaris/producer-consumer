@@ -35,4 +35,19 @@ To run the project, follow these steps:
    pip3 install -r requirements.txt
    python3 data_generator.py; cd ..
    ```
+7. You should see logs similar to the following in the producer and consumer applications, indicating successful data transfer.
+### producer
+   ```sh
+   2024-11-13T14:51:37.373Z  INFO 1 --- [producer] [   scheduling-1] c.g.b.producer.service.MongoService      : New user: User(name=Sandra Taylor, address=03625 Lane Viaduct
+Mariashire, ID 31599, email=anitaroberts@example.org, phone=7553201772, company=Ware PLC, country=Rwanda)
+Message User(name=Sandra Taylor, address=03625 Lane Viaduct
+Mariashire, ID 31599, email=anitaroberts@example.org, phone=7553201772, company=Ware PLC, country=Rwanda) has been sucessfully sent to the topic: my-topic
+2024-11-13T14:51:47.496Z  INFO 1 --- [producer] [   scheduling-1] c.g.b.producer.service.MongoService      : No new user.
+   ```
+### consumer
+   ```sh
+   2024-11-13T14:42:57.596Z  INFO 1 --- [consumer] [ntainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-1-1, groupId=1] Discovered group coordinator kafka:9092 (id: 2147482646 rack: null)
+Received message: User(name=Sandra Taylor, address=03625 Lane Viaduct
+Mariashire, ID 31599, email=anitaroberts@example.org, phone=7553201772, company=Ware PLC, country=Rwanda)
+   ```
 This project was developed to learn Apache Kafka, thanks to my supportive study coach. @tunahansezen 💫 
