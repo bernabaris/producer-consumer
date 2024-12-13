@@ -50,4 +50,4 @@ Mariashire, ID 31599, email=anitaroberts@example.org, phone=7553201772, company=
 Received message: User(name=Sandra Taylor, address=03625 Lane Viaduct
 Mariashire, ID 31599, email=anitaroberts@example.org, phone=7553201772, company=Ware PLC, country=Rwanda)
    ```
-This project was developed to learn Apache Kafka, thanks to my supportive study coach. @tunahansezen 💫 
+This project was developed to learn Apache Kafka, thanks to my study coach. @tunahansezen 💫 
